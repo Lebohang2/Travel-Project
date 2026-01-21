@@ -5,7 +5,7 @@ body{
     margin: 0;
 }
 .container{
-    max-width: 1499px;
+    max-width: 100%;
     margin: 0 auto;
 }
     
@@ -89,10 +89,55 @@ body{
         color: #272044;
         opacity: 0.7;
     }
-    main img{
-        width: 100%;
-        display: block;
+    .text-center{
+        text-align: center;
     }
+    h4{
+       font-weight: 700;
+       font-size: 24px;
+         line-height: 1.5; 
+         color: #272044;
+    }
+    h5{
+      font-weight: 700;
+      font-size: 13px;
+        line-height: 1.5;
+        color: #272044;  
+    }
+    .middle-section a{
+      padding: 16px 32px;
+      color: white;
+      background-color:#462CB2;
+      text-decoration: none;
+      gap: 10px; 
+      display: block;
+      font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 32px;
+        text-align: center;
+    }
+   
+    .cafe-grid-3-columns{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+    }
+    .cafe-card{
+        background: white;
+        margin: 30px 0;
+    }
+    .card-content{
+        padding: 30px;
+    }
+    .card-link{
+        padding: 0 30px 30px;
+    }
+    .middle-section {
+  background: #f8f8f8;
+}
     footer{
     color: white;
     background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url(../images/lisbon-footer.png);
@@ -108,8 +153,13 @@ body{
        
     }
     section{
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
+        padding: 100px;
+    }
+    .img-responsive {
+    width: 100%;
+    display: block;
     }
     footer h3{
         color: white;
